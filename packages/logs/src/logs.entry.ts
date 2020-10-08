@@ -16,6 +16,7 @@ import {
 import { buildEnv } from './buildEnv'
 import { HandlerType, Logger, LoggerConfiguration, startLogger, StatusType } from './logger'
 import { startLoggerSession } from './loggerSession'
+import { buildCookieOptions } from '../../core/src/configuration'
 
 export interface LogsUserConfiguration extends UserConfiguration {
   forwardErrorsToLogs?: boolean
@@ -110,7 +111,7 @@ export function makeLogsGlobal(stub: LogsGlobal) {
       isCollectingError,
     }
     const { errorObservable, configuration, internalMonitoring } = commonInit(logsUserConfiguration, buildEnv)
-    const session = startLoggerSession(configuration, areCookiesAuthorized(mustUseSecureCookie(userConfiguration)))
+    const session = startLoggerSession(configuration, areCookiesAuthorized(buildCookieOptions(userConfiguration)))
     const globalApi = startLogger(errorObservable, configuration, session, internalMonitoring)
     assign(global, globalApi)
     isAlreadyInitialized = true
