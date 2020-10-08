@@ -11,7 +11,7 @@ import {
   makeStub,
   monitor,
   UserConfiguration,
-} from '@datadog/browser-core'
+} from '@cloudsnorkel/datadog-browser-core'
 
 import { buildEnv } from './buildEnv'
 import { startDOMMutationCollection } from './domMutationCollection'

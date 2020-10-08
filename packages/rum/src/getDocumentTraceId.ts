@@ -1,4 +1,4 @@
-import { findCommaSeparatedValue, ONE_MINUTE } from '@datadog/browser-core'
+import { findCommaSeparatedValue, ONE_MINUTE } from '@cloudsnorkel/datadog-browser-core'
 
 interface DocumentTraceData {
   traceId: string

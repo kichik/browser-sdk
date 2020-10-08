@@ -1,4 +1,4 @@
-import { Configuration, performDraw, startSessionManagement } from '@datadog/browser-core'
+import { Configuration, performDraw, startSessionManagement } from '@cloudsnorkel/datadog-browser-core'
 import { LifeCycle, LifeCycleEventType } from './lifeCycle'
 
 export const RUM_SESSION_KEY = 'rum'

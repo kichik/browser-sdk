@@ -8,7 +8,7 @@ import {
   startXhrProxy,
   XhrCompleteContext,
   XhrStartContext,
-} from '@datadog/browser-core'
+} from '@cloudsnorkel/datadog-browser-core'
 import { isAllowedRequestUrl } from './resourceUtils'
 import { startTracer, TraceIdentifier, Tracer } from './tracer'
 

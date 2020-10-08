@@ -5,7 +5,7 @@ import {
   InternalMonitoring,
   Observable,
   Omit,
-} from '@datadog/browser-core'
+} from '@cloudsnorkel/datadog-browser-core'
 import sinon from 'sinon'
 
 import { HandlerType, LogsMessage, startLogger, STATUSES, StatusType } from '../src/logger'

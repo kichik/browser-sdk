@@ -1,4 +1,4 @@
-import { ErrorMessage } from '@datadog/browser-core'
+import { ErrorMessage } from '@cloudsnorkel/datadog-browser-core'
 import { RumPerformanceEntry } from './performanceCollection'
 import { RequestCompleteEvent, RequestStartEvent } from './requestCollection'
 import { AutoActionCreatedEvent, AutoUserAction, CustomUserAction } from './userActionCollection'

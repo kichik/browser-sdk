@@ -12,7 +12,7 @@ import {
   monitor,
   mustUseSecureCookie,
   UserConfiguration,
-} from '@datadog/browser-core'
+} from '@cloudsnorkel/datadog-browser-core'
 import { buildEnv } from './buildEnv'
 import { HandlerType, Logger, LoggerConfiguration, startLogger, StatusType } from './logger'
 import { startLoggerSession } from './loggerSession'

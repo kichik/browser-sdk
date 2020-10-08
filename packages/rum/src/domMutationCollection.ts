@@ -1,4 +1,4 @@
-import { monitor } from '@datadog/browser-core'
+import { monitor } from '@cloudsnorkel/datadog-browser-core'
 import { LifeCycle, LifeCycleEventType } from './lifeCycle'
 
 type MutationObserverConstructor = new (callback: MutationCallback) => MutationObserver

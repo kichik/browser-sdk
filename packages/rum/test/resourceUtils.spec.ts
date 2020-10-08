@@ -1,4 +1,4 @@
-import { Configuration, DEFAULT_CONFIGURATION, SPEC_ENDPOINTS } from '@datadog/browser-core'
+import { Configuration, DEFAULT_CONFIGURATION, SPEC_ENDPOINTS } from '@cloudsnorkel/datadog-browser-core'
 import { RumPerformanceResourceTiming } from '../src/performanceCollection'
 import {
   computePerformanceResourceDetails,

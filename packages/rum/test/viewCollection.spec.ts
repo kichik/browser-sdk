@@ -1,4 +1,4 @@
-import { getHash, getPathName, getSearch } from '@datadog/browser-core'
+import { getHash, getPathName, getSearch } from '@cloudsnorkel/datadog-browser-core'
 
 import { LifeCycleEventType } from '../src/lifeCycle'
 import {

@@ -1,5 +1,5 @@
-import { datadogLogs } from '@datadog/browser-logs'
-import { datadogRum } from '@datadog/browser-rum'
+import { datadogLogs } from '@cloudsnorkel/datadog-browser-logs'
+import { datadogRum } from '@cloudsnorkel/datadog-browser-rum'
 
 // fallback for server side rendering
 const hostname = typeof location === 'object' ? location.hostname : ''

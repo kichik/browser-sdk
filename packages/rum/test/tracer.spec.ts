@@ -5,7 +5,7 @@ import {
   isIE,
   objectEntries,
   XhrCompleteContext,
-} from '@datadog/browser-core'
+} from '@cloudsnorkel/datadog-browser-core'
 import { startTracer, TraceIdentifier } from '../src/tracer'
 import { setup, TestSetupBuilder } from './specHelper'
 

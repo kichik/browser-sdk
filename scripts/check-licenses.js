@@ -41,7 +41,7 @@ function retrievePackageJsonDependencies(packageJsonPath) {
 
   return Object.keys(packageJson.dependencies || {})
     .concat(Object.keys(packageJson.devDependencies || {}))
-    .filter((dependency) => !dependency.includes('@datadog'))
+    .filter((dependency) => !dependency.includes('@cloudsnorkel/datadog-'))
 }
 
 function withoutDuplicates(a) {

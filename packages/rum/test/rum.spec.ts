@@ -1,4 +1,4 @@
-import { Configuration, DEFAULT_CONFIGURATION, ErrorMessage, isIE, SPEC_ENDPOINTS } from '@datadog/browser-core'
+import { Configuration, DEFAULT_CONFIGURATION, ErrorMessage, isIE, SPEC_ENDPOINTS } from '@cloudsnorkel/datadog-browser-core'
 import sinon from 'sinon'
 
 import { LifeCycle, LifeCycleEventType } from '../src/lifeCycle'

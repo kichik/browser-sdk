@@ -5,7 +5,7 @@ import {
   SESSION_COOKIE_NAME,
   setCookie,
   stopSessionManagement,
-} from '@datadog/browser-core'
+} from '@cloudsnorkel/datadog-browser-core'
 
 import { LOGGER_SESSION_KEY, LoggerTrackingType, startLoggerSession } from '../src/loggerSession'
 

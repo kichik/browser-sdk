@@ -7,7 +7,7 @@ import {
   isValidUrl,
   msToNs,
   ResourceKind,
-} from '@datadog/browser-core'
+} from '@cloudsnorkel/datadog-browser-core'
 
 import { RumPerformanceResourceTiming } from './performanceCollection'
 import { PerformanceResourceDetails } from './rum'

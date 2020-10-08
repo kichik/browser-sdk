@@ -6,7 +6,7 @@ import {
   InternalMonitoring,
   PerformanceObserverStubBuilder,
   SPEC_ENDPOINTS,
-} from '@datadog/browser-core'
+} from '@cloudsnorkel/datadog-browser-core'
 import sinon from 'sinon'
 import { RumGlobal } from '../src'
 import { LifeCycle } from '../src/lifeCycle'

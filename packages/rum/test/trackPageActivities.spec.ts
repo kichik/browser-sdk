@@ -1,4 +1,4 @@
-import { noop, Observable } from '@datadog/browser-core'
+import { noop, Observable } from '@cloudsnorkel/datadog-browser-core'
 import { LifeCycle, LifeCycleEventType } from '../src/lifeCycle'
 import { RumPerformanceNavigationTiming, RumPerformanceResourceTiming } from '../src/performanceCollection'
 import { RequestCompleteEvent } from '../src/requestCollection'

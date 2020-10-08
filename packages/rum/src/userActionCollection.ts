@@ -1,4 +1,4 @@
-import { Context, DOM_EVENT, generateUUID } from '@datadog/browser-core'
+import { Context, DOM_EVENT, generateUUID } from '@cloudsnorkel/datadog-browser-core'
 import { getActionNameFromElement } from './getActionNameFromElement'
 import { LifeCycle, LifeCycleEventType } from './lifeCycle'
 import { EventCounts, trackEventCounts } from './trackEventCounts'

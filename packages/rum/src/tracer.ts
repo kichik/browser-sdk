@@ -4,7 +4,7 @@ import {
   getOrigin,
   objectEntries,
   XhrCompleteContext,
-} from '@datadog/browser-core'
+} from '@cloudsnorkel/datadog-browser-core'
 
 export interface TracingResult {
   spanId: TraceIdentifier

@@ -7,7 +7,7 @@ import {
   SESSION_COOKIE_NAME,
   setCookie,
   stopSessionManagement,
-} from '@datadog/browser-core'
+} from '@cloudsnorkel/datadog-browser-core'
 
 import { LifeCycle, LifeCycleEventType } from '../src/lifeCycle'
 import { RUM_SESSION_KEY, RumTrackingType, startRumSession } from '../src/rumSession'

@@ -10,7 +10,7 @@ import {
   SPEC_ENDPOINTS,
   stubFetch,
   withXhr,
-} from '@datadog/browser-core'
+} from '@cloudsnorkel/datadog-browser-core'
 import { resetFetchProxy } from '../../core/src/fetchProxy'
 import { resetXhrProxy } from '../../core/src/xhrProxy'
 import {

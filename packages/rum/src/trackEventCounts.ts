@@ -1,4 +1,4 @@
-import { noop } from '@datadog/browser-core'
+import { noop } from '@cloudsnorkel/datadog-browser-core'
 import { LifeCycle, LifeCycleEventType, Subscription } from './lifeCycle'
 
 export interface EventCounts {

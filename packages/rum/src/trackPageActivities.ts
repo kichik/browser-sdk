@@ -1,4 +1,4 @@
-import { monitor, Observable } from '@datadog/browser-core'
+import { monitor, Observable } from '@cloudsnorkel/datadog-browser-core'
 import { LifeCycle, LifeCycleEventType, Subscription } from './lifeCycle'
 
 // Delay to wait for a page activity to validate the tracking process

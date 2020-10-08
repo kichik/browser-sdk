@@ -1,5 +1,5 @@
-import { LogsGlobal } from '@datadog/browser-logs'
-import { RumGlobal } from '@datadog/browser-rum'
+import { LogsGlobal } from '@cloudsnorkel/datadog-browser-logs'
+import { RumGlobal } from '@cloudsnorkel/datadog-browser-rum'
 
 declare global {
   interface Window {

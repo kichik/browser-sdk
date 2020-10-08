@@ -1,4 +1,4 @@
-import { isIE, stopSessionManagement } from '@datadog/browser-core'
+import { isIE, stopSessionManagement } from '@cloudsnorkel/datadog-browser-core'
 import { resetXhrProxy } from '../../core/src/xhrProxy'
 
 import { makeRumGlobal, RumGlobal, RumUserConfiguration } from '../src/rum.entry'

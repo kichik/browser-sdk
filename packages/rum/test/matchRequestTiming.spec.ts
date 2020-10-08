@@ -1,4 +1,4 @@
-import { isIE } from '@datadog/browser-core'
+import { isIE } from '@cloudsnorkel/datadog-browser-core'
 
 import { matchRequestTiming } from '../src/matchRequestTiming'
 import { RumPerformanceResourceTiming } from '../src/performanceCollection'

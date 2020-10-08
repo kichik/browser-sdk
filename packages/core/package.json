@@ -1,5 +1,5 @@
 {
-  "name": "@datadog/browser-core",
+  "name": "@cloudsnorkel/datadog-browser-core",
   "version": "1.21.0",
   "license": "Apache-2.0",
   "main": "cjs/index.js",

@@ -1,4 +1,4 @@
-import { monitor, stopSessionManagement } from '@datadog/browser-core'
+import { monitor, stopSessionManagement } from '@cloudsnorkel/datadog-browser-core'
 import { resetXhrProxy } from '../../core/src/xhrProxy'
 import { LogsGlobal } from '../src'
 import { makeLogsGlobal } from '../src/logs.entry'

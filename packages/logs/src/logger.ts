@@ -12,7 +12,7 @@ import {
   InternalMonitoring,
   monitored,
   noop,
-} from '@datadog/browser-core'
+} from '@cloudsnorkel/datadog-browser-core'
 
 import { LoggerSession } from './loggerSession'
 import { LogsGlobal } from './logs.entry'

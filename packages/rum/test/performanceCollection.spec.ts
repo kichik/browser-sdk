@@ -1,4 +1,4 @@
-import { isIE } from '@datadog/browser-core'
+import { isIE } from '@cloudsnorkel/datadog-browser-core'
 
 import { restorePageVisibility, setPageVisibility } from '../../core/src/specHelper'
 import { retrieveInitialDocumentResourceTiming } from '../../rum/src/performanceCollection'

@@ -1,4 +1,4 @@
-import { MonitoringMessage } from '@datadog/browser-core'
+import { MonitoringMessage } from '@cloudsnorkel/datadog-browser-core'
 import * as request from 'request'
 import { getCurrentSpec } from '../currentSpecReporter'
 import { isRumResourceEvent, ServerLogsMessage, ServerRumEvent, ServerRumResourceEvent } from './serverTypes'

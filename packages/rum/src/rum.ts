@@ -19,7 +19,7 @@ import {
   RequestType,
   ResourceKind,
   withSnakeCaseKeys,
-} from '@datadog/browser-core'
+} from '@cloudsnorkel/datadog-browser-core'
 
 import { LifeCycle, LifeCycleEventType } from './lifeCycle'
 import { matchRequestTiming } from './matchRequestTiming'

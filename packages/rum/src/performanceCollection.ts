@@ -1,4 +1,4 @@
-import { Configuration, DOM_EVENT, getRelativeTime, isNumber, monitor } from '@datadog/browser-core'
+import { Configuration, DOM_EVENT, getRelativeTime, isNumber, monitor } from '@cloudsnorkel/datadog-browser-core'
 
 import { getDocumentTraceId } from './getDocumentTraceId'
 import { LifeCycle, LifeCycleEventType } from './lifeCycle'

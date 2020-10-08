@@ -1,4 +1,4 @@
-import { ErrorMessage, objectValues } from '@datadog/browser-core'
+import { ErrorMessage, objectValues } from '@cloudsnorkel/datadog-browser-core'
 import { LifeCycle, LifeCycleEventType } from '../src/lifeCycle'
 import { RumPerformanceLongTaskTiming, RumPerformanceNavigationTiming } from '../src/performanceCollection'
 import { EventCounts, trackEventCounts } from '../src/trackEventCounts'

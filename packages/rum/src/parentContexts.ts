@@ -1,4 +1,4 @@
-import { Context, monitor, ONE_MINUTE, SESSION_TIME_OUT_DELAY } from '@datadog/browser-core'
+import { Context, monitor, ONE_MINUTE, SESSION_TIME_OUT_DELAY } from '@cloudsnorkel/datadog-browser-core'
 import { LifeCycle, LifeCycleEventType } from './lifeCycle'
 import { RumSession } from './rumSession'
 import { AutoActionCreatedEvent, AutoUserAction } from './userActionCollection'
